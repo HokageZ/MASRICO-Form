@@ -1,0 +1,129 @@
+{
+  "headerTitle": "Website Requirements Form",
+  "businessInfoTitle": "Business Information",
+  "websiteReqsTitle": "Website Requirements",
+  "designStyleTitle": "Design & Style",
+  "contentMediaTitle": "Content & Media",
+  "specialFeaturesTitle": "Special Features",
+  "timelineBudgetTitle": "Timeline & Budget",
+  "agreementTitle": "⚠️ Important Terms & Conditions",
+  "agreementIntro": "Please read carefully before submitting:",
+  "domainHostTitle": "Domain & Hosting",
+  "domainHostLabel": "Do you have a domain or hosting?",
+  "domainHostHelp": "Domain = your website name (example.com). Hosting = the server that stores and runs your site.",
+  "companyNameLabel": "Company/Business Name",
+  "businessTypeLabel": "Type of Business",
+  "contactEmailLabel": "Email Address",
+  "contactPhoneLabel": "Phone Number",
+  "targetAudienceLabel": "Who are your target customers?",
+  "websiteTypeLabel": "Website Type",
+  "pageCountLabel": "How many pages do you need?",
+  "languagesLabel": "Languages needed for the website:",
+  "designStyleLabel": "Design Style",
+  "colorPreferencesLabel": "Color Preferences",
+  "logoUploadLabel": "Do you have a logo?",
+  "inspirationSitesLabel": "Website Examples (3 websites you like)",
+  "inspirationHelpText": "This helps us understand your style preferences",
+  "contentCreationLabel": "Content Creation",
+  "imagesSourceLabel": "Images & Photos",
+  "additionalFeaturesLabel": "Additional Features (check all that apply):",
+  "specialRequestsLabel": "Special Requirements or Additional Notes",
+  "additionalPagesLabel": "Additional pages (please list):",
+  "timelineLabel": "Preferred Timeline",
+  "budgetLabel": "Budget Range",
+  "domainHostOptions": {
+    "domain": "Domain only",
+    "hosting": "Hosting only",
+    "both": "Both (domain + hosting)",
+    "none": "None"
+  },
+  "radio": {
+    "showcase": "Business Showcase (display services/portfolio)",
+    "ecommerce": "Online Store (sell products online)",
+    "booking": "Booking System (appointments/reservations)",
+    "portfolio": "Portfolio Website",
+    "modern": "Modern & Clean",
+    "classic": "Classic & Professional",
+    "creative": "Creative & Artistic",
+    "minimal": "Minimal & Simple",
+    "contentSelf": "I will provide all text content",
+    "contentHelp": "I need help writing content",
+    "contentFull": "Please create all content for me",
+    "imagesSelf": "I will provide my own images",
+    "imagesStock": "Use stock photos",
+    "imagesMix": "Mix of my images and stock photos"
+  },
+  "options": {
+    "businessType": {
+      "": "Select your business type",
+      "printing": "Printing Services",
+      "restaurant": "Restaurant/Food",
+      "legal": "Legal Services",
+      "medical": "Medical/Healthcare",
+      "retail": "Retail/Shopping",
+      "services": "Professional Services",
+      "other": "Other"
+    },
+    "pageCount": {
+      "": "Select number of pages",
+      "1-5": "1-5 pages (Basic)",
+      "6-10": "6-10 pages (Standard)",
+      "11-20": "11-20 pages (Advanced)",
+      "20+": "20+ pages (Enterprise)"
+    },
+    "logoUpload": {
+      "yes": "Yes, I have a logo",
+      "no": "No, I need a logo designed"
+    },
+    "timeline": {
+      "": "Select timeline",
+      "asap": "ASAP (Rush job)",
+      "2-weeks": "Within 2 weeks",
+      "1-month": "Within 1 month",
+      "2-months": "Within 2 months",
+      "flexible": "Flexible timeline"
+    },
+    "budget": {
+      "": "Select budget range",
+      "under-2000": "Under €2,000",
+      "2000-5000": "€2,000 - €5,000",
+      "5000-10000": "€5,000 - €10,000",
+      "10000-plus": "€10,000+",
+      "discuss": "Prefer to discuss"
+    }
+  },
+  "pages": {
+    "homepage": "Home Page",
+    "about": "About Us",
+    "services": "Services/Products",
+    "gallery": "Gallery/Portfolio",
+    "contact": "Contact Us",
+    "blog": "Blog/News"
+  },
+  "features": {
+    "contact-form": "Contact Form",
+    "social-media": "Social Media Integration",
+    "google-maps": "Google Maps",
+    "newsletter": "Newsletter Signup",
+    "testimonials": "Customer Testimonials",
+    "live-chat": "Live Chat"
+  },
+  "agreementList": [
+    "The project scope will be based on the information provided in this form",
+    "You will receive 3 FREE revisions after the initial design approval",
+    "Any additional changes beyond 3 revisions will be charged separately",
+    "Changes to the original requirements may affect the timeline and cost",
+    "Final payment is required before website delivery",
+    "You will own full rights to your website upon completion"
+  ],
+  "agreementTerms": "I understand and agree to the terms above, including the revision policy. I confirm that any additional changes beyond 3 revisions will be charged extra.",
+  "agreementInfo": "I confirm that all information provided is accurate and complete.",
+  "placeholders": {
+    "targetAudience": "e.g., Local businesses, individual consumers, lawyers, etc.",
+    "colorPreferences": "",
+    "inspirationSites": "Please provide 3 website URLs that you find appealing in terms of design or functionality",
+    "specialRequests": "Any specific functionality, integrations, or requirements not mentioned above",
+    "additionalPages": "e.g., FAQ, Careers, Case Studies, Partners"
+  },
+  "submit": "Submit Requirements"
+}

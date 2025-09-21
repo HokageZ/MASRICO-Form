@@ -1,0 +1,129 @@
+{
+  "headerTitle": "Formulaire des Besoins du Site Web",
+  "businessInfoTitle": "Informations sur l’Entreprise",
+  "websiteReqsTitle": "Exigences du Site Web",
+  "designStyleTitle": "Design et Style",
+  "contentMediaTitle": "Contenu et Médias",
+  "specialFeaturesTitle": "Fonctionnalités Spéciales",
+  "timelineBudgetTitle": "Délais et Budget",
+  "agreementTitle": "⚠️ Termes et Conditions Importants",
+  "agreementIntro": "Veuillez lire attentivement avant de soumettre :",
+  "domainHostTitle": "Domaine & Hébergement",
+  "domainHostLabel": "Avez-vous un domaine ou un hébergement ?",
+  "domainHostHelp": "Domaine = le nom de votre site (exemple.com). Hébergement = le serveur qui héberge votre site.",
+  "companyNameLabel": "Nom de l’Entreprise",
+  "businessTypeLabel": "Type d’Entreprise",
+  "contactEmailLabel": "Adresse e-mail",
+  "contactPhoneLabel": "Numéro de téléphone",
+  "targetAudienceLabel": "Qui sont vos clients cibles ?",
+  "websiteTypeLabel": "Type de Site Web",
+  "pageCountLabel": "Combien de pages avez-vous besoin ?",
+  "languagesLabel": "Langues nécessaires pour le site web :",
+  "designStyleLabel": "Style de Design",
+  "colorPreferencesLabel": "Préférences de Couleur",
+  "logoUploadLabel": "Avez-vous un logo ?",
+  "inspirationSitesLabel": "Exemples de Sites (3 sites que vous aimez)",
+  "inspirationHelpText": "Cela nous aide à comprendre vos préférences de style",
+  "contentCreationLabel": "Création de Contenu",
+  "imagesSourceLabel": "Images et Photos",
+  "additionalFeaturesLabel": "Fonctionnalités supplémentaires (cochez tout ce qui s’applique) :",
+  "specialRequestsLabel": "Exigences Spéciales ou Notes Supplémentaires",
+  "additionalPagesLabel": "Pages supplémentaires (veuillez lister) :",
+  "timelineLabel": "Délai Préféré",
+  "budgetLabel": "Fourchette de Budget",
+  "domainHostOptions": {
+    "domain": "Domaine uniquement",
+    "hosting": "Hébergement uniquement",
+    "both": "Les deux (domaine + hébergement)",
+    "none": "Aucun"
+  },
+  "radio": {
+    "showcase": "Présentation de l’Entreprise (services/portfolio)",
+    "ecommerce": "Boutique en Ligne (vente de produits)",
+    "booking": "Système de Réservation (rendez-vous/réservations)",
+    "portfolio": "Site de Portfolio",
+    "modern": "Moderne et Épuré",
+    "classic": "Classique et Professionnel",
+    "creative": "Créatif et Artistique",
+    "minimal": "Minimaliste et Simple",
+    "contentSelf": "Je fournirai tout le contenu texte",
+    "contentHelp": "J’ai besoin d’aide pour rédiger le contenu",
+    "contentFull": "Veuillez créer tout le contenu pour moi",
+    "imagesSelf": "Je fournirai mes propres images",
+    "imagesStock": "Utiliser des photos de stock",
+    "imagesMix": "Mélange de mes images et de photos de stock"
+  },
+  "options": {
+    "businessType": {
+      "": "Sélectionnez votre type d’entreprise",
+      "printing": "Services d’Impression",
+      "restaurant": "Restaurant/Alimentation",
+      "legal": "Services Juridiques",
+      "medical": "Médical/Santé",
+      "retail": "Vente au Détail/Achats",
+      "services": "Services Professionnels",
+      "other": "Autre"
+    },
+    "pageCount": {
+      "": "Sélectionnez le nombre de pages",
+      "1-5": "1-5 pages (Basique)",
+      "6-10": "6-10 pages (Standard)",
+      "11-20": "11-20 pages (Avancé)",
+      "20+": "20+ pages (Entreprise)"
+    },
+    "logoUpload": {
+      "yes": "Oui, j’ai un logo",
+      "no": "Non, j’ai besoin d’un logo"
+    },
+    "timeline": {
+      "": "Sélectionnez un délai",
+      "asap": "Dès que possible (Urgent)",
+      "2-weeks": "Sous 2 semaines",
+      "1-month": "Sous 1 mois",
+      "2-months": "Sous 2 mois",
+      "flexible": "Délai flexible"
+    },
+    "budget": {
+      "": "Sélectionnez une fourchette de budget",
+      "under-2000": "Moins de 2 000 €",
+      "2000-5000": "2 000 € - 5 000 €",
+      "5000-10000": "5 000 € - 10 000 €",
+      "10000-plus": "10 000 €+",
+      "discuss": "À discuter"
+    }
+  },
+  "pages": {
+    "homepage": "Page d’Accueil",
+    "about": "À Propos",
+    "services": "Services/Produits",
+    "gallery": "Galerie/Portfolio",
+    "contact": "Contact",
+    "blog": "Blog/Actualités"
+  },
+  "features": {
+    "contact-form": "Formulaire de Contact",
+    "social-media": "Intégration Réseaux Sociaux",
+    "google-maps": "Google Maps",
+    "newsletter": "Inscription à la Newsletter",
+    "testimonials": "Témoignages Clients",
+    "live-chat": "Chat en Direct"
+  },
+  "agreementList": [
+    "La portée du projet sera basée sur les informations fournies dans ce formulaire",
+    "Vous recevrez 3 révisions GRATUITES après l’approbation du design initial",
+    "Tout changement supplémentaire au-delà de 3 révisions sera facturé séparément",
+    "Les modifications des exigences initiales peuvent affecter le délai et le coût",
+    "Le paiement final est requis avant la livraison du site",
+    "Vous posséderez tous les droits sur votre site à la fin du projet"
+  ],
+  "agreementTerms": "Je comprends et j’accepte les termes ci-dessus, y compris la politique de révisions. Je confirme que tout changement supplémentaire au-delà de 3 révisions sera facturé en plus.",
+  "agreementInfo": "Je confirme que toutes les informations fournies sont exactes et complètes.",
+  "placeholders": {
+    "targetAudience": "ex. : Entreprises locales, consommateurs individuels, avocats, etc.",
+    "colorPreferences": "",
+    "inspirationSites": "Veuillez fournir 3 URLs de sites que vous jugez attrayants (design/fonctionnalités)",
+    "specialRequests": "Toute fonctionnalité spécifique, intégrations ou exigences non mentionnées ci-dessus",
+    "additionalPages": "ex. : FAQ, Carrières, Études de cas, Partenaires"
+  },
+  "submit": "Soumettre les Besoins"
+}

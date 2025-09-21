@@ -1,0 +1,129 @@
+{
+  "headerTitle": "Modulo Requisiti Sito Web",
+  "businessInfoTitle": "Informazioni Aziendali",
+  "websiteReqsTitle": "Requisiti del Sito Web",
+  "designStyleTitle": "Design e Stile",
+  "contentMediaTitle": "Contenuti e Media",
+  "specialFeaturesTitle": "Funzionalità Speciali",
+  "timelineBudgetTitle": "Tempistiche e Budget",
+  "agreementTitle": "⚠️ Termini e Condizioni Importanti",
+  "agreementIntro": "Leggere attentamente prima di inviare:",
+  "domainHostTitle": "Dominio e Hosting",
+  "domainHostLabel": "Hai un dominio o un hosting?",
+  "domainHostHelp": "Dominio = il nome del sito (esempio.com). Hosting = il server dove risiede il sito.",
+  "companyNameLabel": "Nome Azienda/Attività",
+  "businessTypeLabel": "Tipo di Attività",
+  "contactEmailLabel": "Indirizzo Email",
+  "contactPhoneLabel": "Numero di Telefono",
+  "targetAudienceLabel": "Chi sono i tuoi clienti target?",
+  "websiteTypeLabel": "Tipo di Sito Web",
+  "pageCountLabel": "Di quante pagine hai bisogno?",
+  "languagesLabel": "Lingue necessarie per il sito web:",
+  "designStyleLabel": "Stile di Design",
+  "colorPreferencesLabel": "Preferenze di Colore",
+  "logoUploadLabel": "Hai un logo?",
+  "inspirationSitesLabel": "Esempi di Siti (3 che ti piacciono)",
+  "inspirationHelpText": "Questo ci aiuta a comprendere le tue preferenze di stile",
+  "contentCreationLabel": "Creazione Contenuti",
+  "imagesSourceLabel": "Immagini e Foto",
+  "additionalFeaturesLabel": "Funzionalità aggiuntive (seleziona tutte quelle applicabili):",
+  "specialRequestsLabel": "Requisiti Speciali o Note Aggiuntive",
+  "additionalPagesLabel": "Pagine aggiuntive (elencare):",
+  "timelineLabel": "Tempistica Preferita",
+  "budgetLabel": "Fascia di Budget",
+  "domainHostOptions": {
+    "domain": "Solo dominio",
+    "hosting": "Solo hosting",
+    "both": "Entrambi (dominio + hosting)",
+    "none": "Nessuno"
+  },
+  "radio": {
+    "showcase": "Vetrina Aziendale (servizi/portfolio)",
+    "ecommerce": "Negozio Online (vendita prodotti)",
+    "booking": "Sistema di Prenotazione (appuntamenti/prenotazioni)",
+    "portfolio": "Sito Portfolio",
+    "modern": "Moderno e Pulito",
+    "classic": "Classico e Professionale",
+    "creative": "Creativo e Artistico",
+    "minimal": "Minimal e Semplice",
+    "contentSelf": "Fornirò tutto il contenuto testuale",
+    "contentHelp": "Ho bisogno di aiuto per la redazione",
+    "contentFull": "Per favore create tutto il contenuto per me",
+    "imagesSelf": "Fornirò le mie immagini",
+    "imagesStock": "Usa foto stock",
+    "imagesMix": "Mix delle mie immagini e foto stock"
+  },
+  "options": {
+    "businessType": {
+      "": "Seleziona il tipo di attività",
+      "printing": "Servizi di Stampa",
+      "restaurant": "Ristorante/Cibo",
+      "legal": "Servizi Legali",
+      "medical": "Medico/Sanitario",
+      "retail": "Vendita al Dettaglio/Shopping",
+      "services": "Servizi Professionali",
+      "other": "Altro"
+    },
+    "pageCount": {
+      "": "Seleziona il numero di pagine",
+      "1-5": "1-5 pagine (Base)",
+      "6-10": "6-10 pagine (Standard)",
+      "11-20": "11-20 pagine (Avanzato)",
+      "20+": "20+ pagine (Enterprise)"
+    },
+    "logoUpload": {
+      "yes": "Sì, ho un logo",
+      "no": "No, ho bisogno di un logo"
+    },
+    "timeline": {
+      "": "Seleziona tempistica",
+      "asap": "Il prima possibile (Urgente)",
+      "2-weeks": "Entro 2 settimane",
+      "1-month": "Entro 1 mese",
+      "2-months": "Entro 2 mesi",
+      "flexible": "Tempistica flessibile"
+    },
+    "budget": {
+      "": "Seleziona fascia di budget",
+      "under-2000": "Meno di €2.000",
+      "2000-5000": "€2.000 - €5.000",
+      "5000-10000": "€5.000 - €10.000",
+      "10000-plus": "€10.000+",
+      "discuss": "Preferisco discuterne"
+    }
+  },
+  "pages": {
+    "homepage": "Home Page",
+    "about": "Chi Siamo",
+    "services": "Servizi/Prodotti",
+    "gallery": "Galleria/Portfolio",
+    "contact": "Contatti",
+    "blog": "Blog/Notizie"
+  },
+  "features": {
+    "contact-form": "Modulo di Contatto",
+    "social-media": "Integrazione Social Media",
+    "google-maps": "Google Maps",
+    "newsletter": "Iscrizione Newsletter",
+    "testimonials": "Testimonianze Clienti",
+    "live-chat": "Chat dal Vivo"
+  },
+  "agreementList": [
+    "L’ambito del progetto si baserà sulle informazioni fornite in questo modulo",
+    "Riceverai 3 revisioni GRATUITE dopo l’approvazione del design iniziale",
+    "Eventuali modifiche oltre 3 revisioni saranno addebitate separatamente",
+    "Le modifiche ai requisiti originali possono influire su tempi e costi",
+    "Il pagamento finale è richiesto prima della consegna del sito",
+    "Al termine, possiederai tutti i diritti sul tuo sito web"
+  ],
+  "agreementTerms": "Comprendo e accetto i termini sopra indicati, inclusa la politica sulle revisioni. Confermo che eventuali modifiche oltre 3 revisioni saranno addebitate extra.",
+  "agreementInfo": "Confermo che tutte le informazioni fornite sono accurate e complete.",
+  "placeholders": {
+    "targetAudience": "es. Aziende locali, consumatori individuali, avvocati, ecc.",
+    "colorPreferences": "",
+    "inspirationSites": "Indica 3 URL di siti che trovi interessanti per design o funzionalità",
+    "specialRequests": "Eventuali funzionalità specifiche, integrazioni o requisiti non menzionati sopra",
+    "additionalPages": "es.: FAQ, Carriere, Casi studio, Partner"
+  },
+  "submit": "Invia Requisiti"
+}

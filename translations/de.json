@@ -1,0 +1,129 @@
+{
+  "headerTitle": "Anforderungsformular für die Website",
+  "businessInfoTitle": "Unternehmensinformationen",
+  "websiteReqsTitle": "Website-Anforderungen",
+  "designStyleTitle": "Design & Stil",
+  "contentMediaTitle": "Inhalt & Medien",
+  "specialFeaturesTitle": "Besondere Funktionen",
+  "timelineBudgetTitle": "Zeitplan & Budget",
+  "agreementTitle": "⚠️ Wichtige Geschäftsbedingungen",
+  "agreementIntro": "Bitte vor dem Absenden sorgfältig lesen:",
+  "domainHostTitle": "Domain & Hosting",
+  "domainHostLabel": "Haben Sie eine Domain oder ein Hosting?",
+  "domainHostHelp": "Domain = der Name Ihrer Website (beispiel.de). Hosting = der Server, auf dem Ihre Website läuft.",
+  "companyNameLabel": "Firmen-/Geschäftsname",
+  "businessTypeLabel": "Art des Unternehmens",
+  "contactEmailLabel": "E-Mail-Adresse",
+  "contactPhoneLabel": "Telefonnummer",
+  "targetAudienceLabel": "Wer sind Ihre Zielkunden?",
+  "websiteTypeLabel": "Website-Typ",
+  "pageCountLabel": "Wie viele Seiten benötigen Sie?",
+  "languagesLabel": "Benötigte Sprachen für die Website:",
+  "designStyleLabel": "Designstil",
+  "colorPreferencesLabel": "Farbpräferenzen",
+  "logoUploadLabel": "Haben Sie ein Logo?",
+  "inspirationSitesLabel": "Beispiel-Websites (3, die Ihnen gefallen)",
+  "inspirationHelpText": "Dies hilft uns, Ihren Stil besser zu verstehen",
+  "contentCreationLabel": "Texterstellung",
+  "imagesSourceLabel": "Bilder & Fotos",
+  "additionalFeaturesLabel": "Zusätzliche Funktionen (alle zutreffenden auswählen):",
+  "specialRequestsLabel": "Besondere Anforderungen oder zusätzliche Hinweise",
+  "additionalPagesLabel": "Zusätzliche Seiten (bitte auflisten):",
+  "timelineLabel": "Bevorzugter Zeitplan",
+  "budgetLabel": "Budgetbereich",
+  "domainHostOptions": {
+    "domain": "Nur Domain",
+    "hosting": "Nur Hosting",
+    "both": "Beides (Domain + Hosting)",
+    "none": "Keines"
+  },
+  "radio": {
+    "showcase": "Unternehmenspräsentation (Dienstleistungen/Portfolio)",
+    "ecommerce": "Onlineshop (Produkte online verkaufen)",
+    "booking": "Buchungssystem (Termine/Reservierungen)",
+    "portfolio": "Portfolio-Website",
+    "modern": "Modern & Klar",
+    "classic": "Klassisch & Professionell",
+    "creative": "Kreativ & Künstlerisch",
+    "minimal": "Minimalistisch & Einfach",
+    "contentSelf": "Ich stelle den gesamten Textinhalt bereit",
+    "contentHelp": "Ich benötige Hilfe beim Verfassen",
+    "contentFull": "Bitte erstellen Sie den gesamten Inhalt für mich",
+    "imagesSelf": "Ich stelle meine eigenen Bilder bereit",
+    "imagesStock": "Stockfotos verwenden",
+    "imagesMix": "Mischung aus eigenen Bildern und Stockfotos"
+  },
+  "options": {
+    "businessType": {
+      "": "Wählen Sie Ihren Unternehmenstyp",
+      "printing": "Druckdienstleistungen",
+      "restaurant": "Restaurant/Essen",
+      "legal": "Rechtsdienstleistungen",
+      "medical": "Medizin/Gesundheitswesen",
+      "retail": "Einzelhandel/Einkaufen",
+      "services": "Professionelle Dienstleistungen",
+      "other": "Sonstiges"
+    },
+    "pageCount": {
+      "": "Anzahl der Seiten auswählen",
+      "1-5": "1-5 Seiten (Basis)",
+      "6-10": "6-10 Seiten (Standard)",
+      "11-20": "11-20 Seiten (Erweitert)",
+      "20+": "20+ Seiten (Enterprise)"
+    },
+    "logoUpload": {
+      "yes": "Ja, ich habe ein Logo",
+      "no": "Nein, ich benötige ein Logo"
+    },
+    "timeline": {
+      "": "Zeitplan auswählen",
+      "asap": "So schnell wie möglich (Eilig)",
+      "2-weeks": "Innerhalb von 2 Wochen",
+      "1-month": "Innerhalb von 1 Monat",
+      "2-months": "Innerhalb von 2 Monaten",
+      "flexible": "Flexibler Zeitplan"
+    },
+    "budget": {
+      "": "Budgetbereich auswählen",
+      "under-2000": "Unter 2.000 €",
+      "2000-5000": "2.000 € - 5.000 €",
+      "5000-10000": "5.000 € - 10.000 €",
+      "10000-plus": "10.000 €+",
+      "discuss": "Bevorzuge Besprechung"
+    }
+  },
+  "pages": {
+    "homepage": "Startseite",
+    "about": "Über Uns",
+    "services": "Dienstleistungen/Produkte",
+    "gallery": "Galerie/Portfolio",
+    "contact": "Kontakt",
+    "blog": "Blog/News"
+  },
+  "features": {
+    "contact-form": "Kontaktformular",
+    "social-media": "Social-Media-Integration",
+    "google-maps": "Google Maps",
+    "newsletter": "Newsletter-Anmeldung",
+    "testimonials": "Kundenstimmen",
+    "live-chat": "Live-Chat"
+  },
+  "agreementList": [
+    "Der Projektumfang basiert auf den in diesem Formular angegebenen Informationen",
+    "Sie erhalten 3 KOSTENLOSE Überarbeitungen nach der Erstfreigabe des Designs",
+    "Weitere Änderungen über 3 Überarbeitungen hinaus werden separat berechnet",
+    "Änderungen an den ursprünglichen Anforderungen können Zeitplan und Kosten beeinflussen",
+    "Die Schlusszahlung ist vor der Übergabe der Website erforderlich",
+    "Sie besitzen nach Abschluss alle Rechte an Ihrer Website"
+  ],
+  "agreementTerms": "Ich verstehe und akzeptiere die oben genannten Bedingungen, einschließlich der Überarbeitungsrichtlinie. Ich bestätige, dass zusätzliche Änderungen über 3 Überarbeitungen hinaus extra berechnet werden.",
+  "agreementInfo": "Ich bestätige, dass alle angegebenen Informationen korrekt und vollständig sind.",
+  "placeholders": {
+    "targetAudience": "z. B. lokale Unternehmen, Privatkunden, Anwälte usw.",
+    "colorPreferences": "",
+    "inspirationSites": "Bitte geben Sie 3 Website-URLs an, die Ihnen hinsichtlich Design oder Funktionalität gefallen",
+    "specialRequests": "Spezifische Funktionen, Integrationen oder Anforderungen, die oben nicht erwähnt wurden",
+    "additionalPages": "z. B. FAQ, Karriere, Fallstudien, Partner"
+  },
+  "submit": "Anforderungen absenden"
+}

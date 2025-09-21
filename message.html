@@ -1,0 +1,369 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Requirements Form - Mas Rico</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <ul class="lang-selector" aria-label="Language selector">
+                <li><button type="button" class="lang-btn" data-lang="en">EN</button></li>
+                <li><button type="button" class="lang-btn" data-lang="es">ES</button></li>
+                <li><button type="button" class="lang-btn" data-lang="fr">FR</button></li>
+                <li><button type="button" class="lang-btn" data-lang="it">IT</button></li>
+                <li><button type="button" class="lang-btn" data-lang="de">DE</button></li>
+            </ul>
+            <img src="masrico-no-background.png" alt="Mas Rico" class="logo">
+            <p id="headerTitle">Website Requirements Form</p>
+        </div>
+        
+        <div class="content">
+            <form id="websiteForm">
+                <!-- Business Information -->
+                <div class="section">
+                    <h2 class="section-title" id="businessInfoTitle">Business Information</h2>
+                    
+                    <div class="form-group">
+                        <label for="companyName" id="companyNameLabel">Company/Business Name <span class="required">*</span></label>
+                        <input type="text" id="companyName" name="companyName" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="businessType" id="businessTypeLabel">Type of Business <span class="required">*</span></label>
+                        <select id="businessType" name="businessType" required>
+                            <option value="">Select your business type</option>
+                            <option value="printing">Printing Services</option>
+                            <option value="restaurant">Restaurant/Food</option>
+                            <option value="legal">Legal Services</option>
+                            <option value="medical">Medical/Healthcare</option>
+                            <option value="retail">Retail/Shopping</option>
+                            <option value="services">Professional Services</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactEmail" id="contactEmailLabel">Email Address <span class="required">*</span></label>
+                        <input type="email" id="contactEmail" name="contactEmail" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="contactPhone" id="contactPhoneLabel">Phone Number <span class="required">*</span></label>
+                        <input type="tel" id="contactPhone" name="contactPhone" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <h3 class="section-title" id="domainHostTitle">Domain & Hosting</h3>
+                        <label id="domainHostLabel">Do you have a domain or hosting? <span class="required">*</span></label>
+                        <div class="help-text" id="domainHostHelp">Domain = your website name (example.com). Hosting = the server that stores and runs your site.</div>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="hasDomain" name="domainHost" value="domain" required>
+                                <label for="hasDomain">Domain only</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="hasHosting" name="domainHost" value="hosting" required>
+                                <label for="hasHosting">Hosting only</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="hasBoth" name="domainHost" value="both" required>
+                                <label for="hasBoth">Both (domain + hosting)</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="hasNone" name="domainHost" value="none" required>
+                                <label for="hasNone">None</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="targetAudience" id="targetAudienceLabel">Who are your target customers?</label>
+                        <textarea id="targetAudience" name="targetAudience" placeholder="e.g., Local businesses, individual consumers, lawyers, etc."></textarea>
+                    </div>
+                </div>
+
+                <!-- Website Requirements -->
+                <div class="section">
+                    <h2 class="section-title" id="websiteReqsTitle">Website Requirements</h2>
+                    
+                    <div class="form-group">
+                        <label id="websiteTypeLabel">Website Type <span class="required">*</span></label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="showcase" name="websiteType" value="showcase" required>
+                                <label for="showcase">Business Showcase (display services/portfolio)</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="ecommerce" name="websiteType" value="ecommerce" required>
+                                <label for="ecommerce">Online Store (sell products online)</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="booking" name="websiteType" value="booking" required>
+                                <label for="booking">Booking System (appointments/reservations)</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="portfolio" name="websiteType" value="portfolio" required>
+                                <label for="portfolio">Portfolio Website</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="pageCount" id="pageCountLabel">How many pages do you need? <span class="required">*</span></label>
+                        <select id="pageCount" name="pageCount" required>
+                            <option value="">Select number of pages</option>
+                            <option value="1-5">1-5 pages (Basic)</option>
+                            <option value="6-10">6-10 pages (Standard)</option>
+                            <option value="11-20">11-20 pages (Advanced)</option>
+                            <option value="20+">20+ pages (Enterprise)</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label>Required Pages (check all that apply):</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="homepage" name="requiredPages" value="homepage">
+                                <label for="homepage">Home Page</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="about" name="requiredPages" value="about">
+                                <label for="about">About Us</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="services" name="requiredPages" value="services">
+                                <label for="services">Services/Products</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="gallery" name="requiredPages" value="gallery">
+                                <label for="gallery">Gallery/Portfolio</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="contact" name="requiredPages" value="contact">
+                                <label for="contact">Contact Us</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="blog" name="requiredPages" value="blog">
+                                <label for="blog">Blog/News</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group" id="additionalPagesGroup" style="display: none;">
+                        <label for="additionalPages" id="additionalPagesLabel">Additional pages (please list):</label>
+                        <textarea id="additionalPages" name="additionalPages" placeholder="e.g., FAQ, Careers, Case Studies, Partners"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="languages" id="languagesLabel">Languages needed for the website:</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="english" name="languages" value="english">
+                                <label for="english">English</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="german" name="languages" value="german">
+                                <label for="german">German</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="french" name="languages" value="french">
+                                <label for="french">French</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="spanish" name="languages" value="spanish">
+                                <label for="spanish">Spanish</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="other-lang" name="languages" value="other">
+                                <label for="other-lang">Other (specify below)</label>
+                            </div>
+                        </div>
+                        <input type="text" name="otherLanguage" placeholder="Specify other language" style="margin-top: 10px;">
+                    </div>
+                </div>
+
+                <!-- Design Preferences -->
+                <div class="section">
+                    <h2 class="section-title" id="designStyleTitle">Design & Style</h2>
+                    
+                    <div class="form-group">
+                        <label id="designStyleLabel">Design Style <span class="required">*</span></label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="modern" name="designStyle" value="modern" required>
+                                <label for="modern">Modern & Clean</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="classic" name="designStyle" value="classic" required>
+                                <label for="classic">Classic & Professional</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="creative" name="designStyle" value="creative" required>
+                                <label for="creative">Creative & Artistic</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="minimal" name="designStyle" value="minimal" required>
+                                <label for="minimal">Minimal & Simple</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="colorPreferences" id="colorPreferencesLabel">Color Preferences</label>
+                        <textarea id="colorPreferences" name="colorPreferences" placeholder="Describe your preferred colors (e.g., blue and white, warm colors, corporate colors)"></textarea>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="logoUpload" id="logoUploadLabel">Do you have a logo?</label>
+                        <select id="logoUpload" name="logoUpload">
+                            <option value="yes">Yes, I have a logo</option>
+                            <option value="no">No, I need a logo designed</option>
+                        </select>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="inspirationSites" id="inspirationSitesLabel">Website Examples (3 websites you like)</label>
+                        <textarea id="inspirationSites" name="inspirationSites" placeholder="Please provide 3 website URLs that you find appealing in terms of design or functionality"></textarea>
+                        <div class="help-text" id="inspirationHelpText">This helps us understand your style preferences</div>
+                    </div>
+                </div>
+
+                <!-- Content & Media -->
+                <div class="section">
+                    <h2 class="section-title" id="contentMediaTitle">Content & Media</h2>
+                    
+                    <div class="form-group">
+                        <label id="contentCreationLabel">Content Creation <span class="required">*</span></label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="contentSelf" name="contentCreation" value="self" required>
+                                <label for="contentSelf">I will provide all text content</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="contentHelp" name="contentCreation" value="help" required>
+                                <label for="contentHelp">I need help writing content</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="contentFull" name="contentCreation" value="full" required>
+                                <label for="contentFull">Please create all content for me</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label id="imagesSourceLabel">Images & Photos <span class="required">*</span></label>
+                        <div class="radio-group">
+                            <div class="radio-item">
+                                <input type="radio" id="imagesSelf" name="imagesSource" value="self" required>
+                                <label for="imagesSelf">I will provide my own images</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="imagesStock" name="imagesSource" value="stock" required>
+                                <label for="imagesStock">Use stock photos</label>
+                            </div>
+                            <div class="radio-item">
+                                <input type="radio" id="imagesMix" name="imagesSource" value="mix" required>
+                                <label for="imagesMix">Mix of my images and stock photos</label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Special Features -->
+                <div class="section">
+                    <h2 class="section-title" id="specialFeaturesTitle">Special Features</h2>
+                    
+                    <div class="form-group">
+                        <label id="additionalFeaturesLabel">Additional Features (check all that apply):</label>
+                        <div class="checkbox-group">
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="contact-form" name="features" value="contact-form">
+                                <label for="contact-form">Contact Form</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="social-media" name="features" value="social-media">
+                                <label for="social-media">Social Media Integration</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="google-maps" name="features" value="google-maps">
+                                <label for="google-maps">Google Maps</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="newsletter" name="features" value="newsletter">
+                                <label for="newsletter">Newsletter Signup</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="testimonials" name="features" value="testimonials">
+                                <label for="testimonials">Customer Testimonials</label>
+                            </div>
+                            <div class="checkbox-item">
+                                <input type="checkbox" id="live-chat" name="features" value="live-chat">
+                                <label for="live-chat">Live Chat</label>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="specialRequests" id="specialRequestsLabel">Special Requirements or Additional Notes</label>
+                        <textarea id="specialRequests" name="specialRequests" placeholder="Any specific functionality, integrations, or requirements not mentioned above"></textarea>
+                    </div>
+                </div>
+
+                <!-- Timeline & Budget -->
+                <div class="section">
+                    <h2 class="section-title" id="timelineBudgetTitle">Timeline & Budget</h2>
+                    
+                    <div class="form-group">
+                        <label for="timeline" id="timelineLabel">Preferred Timeline <span class="required">*</span></label>
+                        <select id="timeline" name="timeline" required>
+                            <option value="">Select timeline</option>
+                            <option value="asap">ASAP (Rush job)</option>
+                            <option value="2-weeks">Within 2 weeks</option>
+                            <option value="1-month">Within 1 month</option>
+                            <option value="2-months">Within 2 months</option>
+                            <option value="flexible">Flexible timeline</option>
+                        </select>
+                    </div>
+                </div>
+
+                <!-- Agreement Section -->
+                <div class="agreement">
+                    <h3 id="agreementTitle">⚠️ Important Terms & Conditions</h3>
+                    <p id="agreementIntro"><strong>Please read carefully before submitting:</strong></p>
+                    <ul id="agreementList" style="margin: 15px 0; padding-left: 20px; line-height: 1.8;">
+                        <li>The project scope will be based on the information provided in this form</li>
+                        <li>You will receive 3 FREE revisions after the initial design approval</li>
+                        <li>Any additional changes beyond 3 revisions will be charged separately</li>
+                        <li>Changes to the original requirements may affect the timeline and cost</li>
+                        <li>Final payment is required before website delivery</li>
+                        <li>You will own full rights to your website upon completion</li>
+                    </ul>
+                    
+                    <div class="agreement-check">
+                        <input type="checkbox" id="agreeTerms" name="agreeTerms" required>
+                        <label for="agreeTerms">
+                            <strong>I understand and agree to the terms above, including the revision policy. I confirm that any additional changes beyond 3 revisions will be charged extra. <span class="required">*</span></strong>
+                        </label>
+                    </div>
+                    
+                    <div class="agreement-check">
+                        <input type="checkbox" id="agreeInfo" name="agreeInfo" required>
+                        <label for="agreeInfo">
+                            <strong>I confirm that all information provided is accurate and complete. <span class="required">*</span></strong>
+                        </label>
+                    </div>
+                </div>
+
+                <button type="submit" class="submit-btn" id="submitBtn" disabled>
+                    Submit Requirements
+                </button>
+            </form>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
